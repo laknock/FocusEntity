@@ -53,7 +53,7 @@ internal extension FocusEntity {
         static let thickness: Float = 0.018
 
         /// Length of the focus square lines in m.
-        static let length: Float = 0.5  // segment length
+        static let length: Float = 0.2  // segment length
 
         /// Side length of the focus square segments when it is open (w.r.t. to a 1x1 square).
         static let openLength: Float = 0.2
