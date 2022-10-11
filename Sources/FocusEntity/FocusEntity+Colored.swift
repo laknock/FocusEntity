@@ -35,9 +35,9 @@ public extension FocusEntity {
             @unknown default: break
             }
         } else {
-            modelMaterial.baseColor = endColor
+//            modelMaterial.baseColor = endColor
             // Necessary for transparency.
-            modelMaterial.tintColor = Material.Color.white.withAlphaComponent(0.995)
+//            modelMaterial.tintColor = Material.Color.white.withAlphaComponent(0.995)
         }
         self.fillPlane?.model?.materials[0] = modelMaterial
     }
